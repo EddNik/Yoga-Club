@@ -19,6 +19,14 @@ margin-bottom: 12px;
     text-align: center;
     margin-bottom: 48px;
 }
+
+.team-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 48px;
+}
 .team-member-info {
     display: flex;
     align-items: center;
@@ -26,11 +34,19 @@ margin-bottom: 12px;
     flex-direction: column;
     gap: 12px;
 }
-.team-description {
+.team-name-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
     text-align: center;
 }
-.team-meber {
+.team-description {
+    text-align: center;
+} 
+.team-social-list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 14px;
 }
