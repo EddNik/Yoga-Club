@@ -91,7 +91,6 @@
 @media only screen and (min-width: 1336px) {
   .header-container {
     max-width: 1440px;
-    gap: 32px;
     padding: 15px 64px;
   }
   .burger-icon {
@@ -99,13 +98,36 @@
   }
   .nav-section {
     width: 582px;
-    height: 26px;
+    height: 100%;
+    padding: 8px 0;
   }
+
   .navigation-list {
     display: flex;
     gap: 32px;
-    display: flex;
-    gap: 32px;
+  }
+
+  .navigation-item {
+    height: 26px;
+  }
+
+  .navigation-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Sarabun', sans-serif;
+    color: #0d0b0a;
+    display: inline-block;
+    height: 100%;
+  }
+
+  .navigation-link:hover,
+  .navigation-link:focus {
+    border-bottom: 2px solid rgba(13, 11, 10, 0.5);
+  }
+
+  .navigation-link.current {
+    border-bottom: 2px solid rgba(13, 11, 10, 0.5);
   }
 
   .join-wrapper {
