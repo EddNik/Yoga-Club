@@ -1,0 +1,108 @@
+.thumb-pricing {
+  background: #dfebeb;
+
+  height: 378px;
+  border: 0px solid rgba(13, 11, 10, 0.15);
+  border-radius: 16px;
+  padding: 32px 24px;
+}
+
+.thumb-pricing:last-child {
+  height: 100%;
+}
+
+.ul-thumb-item {
+  width: auto;
+}
+
+.text-pricing {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Sarabun', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 12px;
+}
+
+.page-pricing {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Sarabun', sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 48px;
+}
+
+.page-thumb {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 8px;
+}
+
+.price-text {
+  font-weight: 400;
+  font-size: 44px;
+
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 24px;
+}
+
+.option-text-pricing {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Sarabun', sans-serif;
+  line-height: 1.6;
+  color: #0d0b0a;
+}
+
+.button-pricing {
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 295px;
+  height: 46px;
+  background: #c2d9fc;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+.ul-container-option {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-bottom: 32px;
+}
+
+.item-pricing {
+  display: flex;
+  column-gap: 16px;
+}
+
+.list-thumb-pricing {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
