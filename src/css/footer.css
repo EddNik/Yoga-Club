@@ -29,7 +29,10 @@
 .form-footer-email {
   background: rgba(13, 11, 10, 0.05);
 }
-
+.icons-footer {
+  fill: #0d0b0a;
+  color: aquamarine;
+}
 
 
 
