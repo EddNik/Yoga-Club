@@ -19,7 +19,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  max-width: 279px;
+  max-width: 343px;
 }
 .logo-footer {
   width: 84px;
@@ -47,7 +47,6 @@
   background: rgba(13, 11, 10, 0.05);
 }
 .input-footer::placeholder {
-  font-family: "Sarabun", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -68,10 +67,55 @@
   height: 46px;
 }
 .text-privaci {
-  font-family: "Sarabun", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.6;
   color: #0d0b0a;
   margin-top: 12px;
+}
+.links-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+.title-footer {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0d0b0a;
+}
+.links-connect {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+}
+.link-footer-four {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+}
+.list-footer {
+  padding: 8px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #0d0b0a;
+}
+.icons-list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 12px;
+}
+.copyrigth {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #0d0b0a;
 }
