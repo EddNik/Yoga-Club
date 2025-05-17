@@ -1,7 +1,7 @@
 /* Team Section */
-.team-section {
+.our-team-section {
     padding: 64px 0;
-    background-color: #f8f8f8;
+    background-color: #FEFEF7;
 }
 /* Our team title-text */ 
 .section-label {
@@ -21,7 +21,6 @@ margin-bottom: 12px;
     color: #252322;
 }
 .section-description {
-    font-size: 16px;
     line-height: 1.6;
     text-align: center;
     margin-bottom: 48px;
@@ -34,16 +33,11 @@ margin-bottom: 12px;
     gap: 48px;
 }
 .team-member {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-border-radius: 0 0 4px 4px;
-box-shadow: 
-  0 2px 1px 0 rgba(46, 47, 66, 0.08),
-  0 1px 1px 0 rgba(46, 47, 66, 0.16),
-  0 1px 6px 0 rgba(46, 47, 66, 0.08);
-background: var(--white);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 
+              0 2px 1px 0 rgba(46, 47, 66, 0.08),
+              0 1px 1px 0 rgba(46, 47, 66, 0.16),
+              0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-member-image {
     border-radius: 16px;
@@ -55,7 +49,6 @@ background: var(--white);
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 12px;
     margin-bottom: 20px;
 }
 .team-member:nth-child(6) .team-member-info{
@@ -68,10 +61,12 @@ display: none;
     line-height: 1.6;
     text-align: center;
     color: #252322;
+    padding-bottom: 0;
 }
 .team-role {
     line-height: 1.6;
     text-align: center;
+    padding-bottom: 12px;
 }
 .team-description {
     line-height: 1.6;
@@ -84,4 +79,47 @@ display: none;
     flex-direction: row;
     align-items: center;
     gap: 14px;
+}
+@media screen and (min-width: 768px) {
+    .our-team-section {
+        padding: 40px 0;
+    }
+    .team-label {
+       margin-bottom: 16px; 
+    }
+    .our-team-title {
+        font-size: 52px;
+        margin-bottom: 24px;
+    }
+    .section-description {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .team-list {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+      }
+      .team-member {
+        flex-basis: calc(50% - 24px);
+       
+      }
+      .team-member:nth-child(6) .team-description-mobile {
+       display: none;
+     }
+     .team-member:nth-child(6) .team-member-info {
+       display: block;
+}
+.team-member-image {
+    margin-bottom: 24px;
+}
+.team-member-info {
+    margin-bottom: 24px;
+}
+}
+@media screen and (min-width: 1336px) {
+.our-team-section {
+    padding: 112px 64px;
+}
 }
