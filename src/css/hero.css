@@ -14,7 +14,8 @@
   }
 }
 .hero-container {
-  padding: 48px 0;
+  padding-top: 48px;
+  padding-bottom: 48px;
   display: block;
 }
 .hero-title {
@@ -80,7 +81,8 @@
     }
   }
   .hero-container {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   .hero-title {
     display: none;
@@ -136,7 +138,8 @@
     }
   }
   .hero-container {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
   }
   .hero-title-tablet {
