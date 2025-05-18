@@ -1,14 +1,23 @@
-/* Общий фон секции */
 .clients {
     background: #f2fafa;
 }
 
-/* Контейнер */
 .testimonials-container {
     padding: 64px 0;
 }
 
-/* Заголовок секции */
+@media screen and (min-width: 768px) {
+    .testimonials-container {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .testimonials-container {
+        padding: 112px 0;
+    }
+}
+
 .clients-title {
     font-family: "Cabin", sans-serif;
     text-align: center;
@@ -21,12 +30,17 @@
 
 @media screen and (min-width: 768px) {
     .clients-title {
-        font-size: 52px;
+        font-size: 40px;
         margin-bottom: 24px;
     }
 }
 
-/* Подзаголовок */
+@media screen and (min-width: 1336px) {
+    .clients-title {
+        font-size: 52px;
+    }
+}
+
 .clients-text {
     margin-bottom: 32px;
     text-align: center;
@@ -35,14 +49,28 @@
     line-height: 1.6;
 }
 
-/* Список отзывов */
+@media screen and (min-width: 768px) {
+    .clients-text {
+        margin-bottom: 24px;
+    }
+}
+
 .clients-main-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* Отзыв одного клиента */
+@media screen and (min-width: 1336px) {
+    .clients-main-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
 .clients-item {
     background: #dfebeb;
     border-radius: 24px;
@@ -52,7 +80,31 @@
     align-items: center;
 }
 
-/* Текст отзыва */
+@media screen and (min-width: 768px) {
+    .clients-item {
+        padding: 29px 12px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .clients-item {
+        padding: 12px;
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+.client-block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media screen and (min-width: 1336px) {
+    .client-info {
+        margin-top: auto;
+    }
+}
+
 .clients-item-text {
     font-family: "Sarabun", sans-serif;
     font-weight: 400;
@@ -63,24 +115,26 @@
     margin-bottom: 32px;
 }
 
-/* Область с фото и данными */
+@media screen and (min-width: 768px) {
+    .clients-item-text {
+        font-size: 22px;
+    }
+}
+
 .client-info {
     display: flex;
     align-items: center;
     flex-direction: column;
-  
 }
 
-/* Фото клиента */
 .client-image {
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
     object-fit: cover;
     margin-bottom: 16px;
 }
 
-/* Блок с именем и статусом */
 .client-meta {
     display: flex;
     flex-direction: column;
@@ -88,7 +142,6 @@
     justify-content: center;
 }
 
-/* Имя клиента */
 .clients-text-name {
     font-family: "Sarabun", sans-serif;
     font-weight: 700;
@@ -98,67 +151,17 @@
     margin-bottom: 4px;
 }
 
-/* Статус клиента */
+@media screen and (min-width: 768px) {
+    .clients-text-name {
+        margin: 0;
+        line-height: 1.6;
+    }
+}
+
 .clients-text-status {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #0d0b0a;
-}
-
-
-@media screen and (min-width: 768px){
-.testimonials-container{
-    padding: 40px 0;
-}
-.clients-title{
-    font-size: 40px;
-    margin-bottom: 24px;
-}
-.clients-text{
-    margin-bottom: 24px;
-}
-.clients-item{
-    padding: 29px 12px;
-}
- .clients-item-text{
-    font-size: 22px;
- }
- .clients-text-name{
-    margin: 0;
-    line-height: 1.6;
- }  
-}
-
-/* Адаптивный ряд на десктопе */
-@media screen and (min-width: 1336px) {
-.testimonials-container {
-        padding: 112px 0;
-    }
-
-    .clients-title {
-        font-size: 52px;
-        margin-bottom: 24px;
-    }
-    .clients-item {
-        padding: 12px;
-        width: calc((100% - 24px) / 2);
-    }
-    .clients-main-list{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-.client-block{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-.client-info{
-    margin-top: auto;
-}
-    .clients-text-name {
-        margin: 0;
-        line-height: 1.6;
-    }
 }
