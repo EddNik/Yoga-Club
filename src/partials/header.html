@@ -1,6 +1,6 @@
 <header class="header">
   <div class="container header-container">
-    <nav class="nav-burger-menu nav-section">
+    <nav class="nav-burger-menu">
       <svg class="burger-icon" width="24" height="24">
         <use href="/img/sprite.svg#burger-menu"></use>
       </svg>
@@ -29,9 +29,51 @@
       </svg>
     </a>
 
-    <nav class="join-wrapper">
+    <div class="join-wrapper">
       <a href="#" class="nav-join">Join</a>
       <a href="#" class="nav-join-now">Join Now</a>
-    </nav>
+    </div>
   </div>
 </header>
+
+<!-- #region mobile-menu -->
+
+<div class="navbar-menu">
+  <div class="container navbar-header">
+    <svg class="navbar-close" width="24" height="24">
+      <use href="/img/sprite.svg#burger-close"></use>
+    </svg>
+    <a class="nav-logo" href="./index.html" aria-label="Site logo">
+      <svg class="nav-logo-icon" width="83" height="23">
+        <use href="{=$icon-path}"></use>
+      </svg>
+    </a>
+    <div class="navbar-join-wrapper">
+      <a href="#" class="navbar-join">Join</a>
+      <a href="#" class="navbar-join-now">Join Now</a>
+    </div>
+  </div>
+
+  <nav class="container navigation-site">
+    <ul class="navbar-list">
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">Yoga Classes</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">Team</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">Testimonials</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">Pricing</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">Contacts</a>
+      </li>
+    </ul>
+    <div class="navbar-join-wrapper">
+      <a href="#" class="navbar-join">Join</a>
+    </div>
+  </nav>
+</div>
