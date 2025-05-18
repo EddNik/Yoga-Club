@@ -2,7 +2,7 @@
 .our-team-section {
     background-color: #f2fafa;
 }
-.container-our-team {
+.our-team-section {
     padding: 64px 0;
 }
 /* Our team title-text */ 
@@ -86,7 +86,7 @@ display: none;
 }
 /* styles for tablet */
 @media screen and (min-width: 768px) {
-    .container-our-team {
+    .our-team-section {
         padding-top : 40;
         padding: 0;
     }
@@ -127,7 +127,7 @@ display: none;
 }
 /* styles for desktop */
 @media screen and (min-width: 1336px) {
-.container-our-team {
+.our-team-section {
     padding: 112px 0;
 }
 .team-list {
