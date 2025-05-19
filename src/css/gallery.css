@@ -1,0 +1,82 @@
+.gallery-section {
+  padding: 64px 0;
+}
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gallery-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 48px;
+  max-width: 335px;
+}
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.gallery-item {
+  flex: 0 0 calc((100% - 24px) / 2);
+}
+.gallery-picture img {
+  border-radius: 16px;
+  object-fit: cover;
+  height: auto;
+}
+@media only screen and (min-width: 768px) {
+  .gallery-container {
+    gap: 80px;
+    padding: 40px 32px;
+  }
+  .gallery-title {
+    margin-bottom: 24px;
+  }
+  .subtitle {
+    margin-bottom: 80px;
+  }
+
+  .gallery-list {
+    width: 704px;
+  }
+  .gallery-item {
+    flex: 0 0 calc((100% - 24px) / 2);
+  }
+}
+@media only screen and (min-width: 1336px) {
+  .gallery-container {
+    padding: 112px 64px;
+  }
+  .gallery-title {
+    font-size: 52px;
+  }
+  .subtitle {
+    font-weight: 500;
+  }
+  .gallery-list {
+    width: 1312px;
+  }
+  .gallery-item {
+    flex: 0 0 calc((100% - 48px) / 3);
+  }
+  .gallery-picture img {
+    border-radius: 16px;
+    object-fit: cover;
+  }
+}

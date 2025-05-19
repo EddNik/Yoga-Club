@@ -1,14 +1,18 @@
+.yoga-classes {
+background-color: #dfebeb;
+}
 .explore-container {
-    padding: 64px 16px;
-    background-color: #dfebeb;
+  padding: 64px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
 }
 .tagline-wrapper {
-    font-family: "Sarabun", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    color: #0d0b0a;
     margin-bottom: 12px;
 }
 .explore-main-title {
@@ -18,7 +22,6 @@
     line-height: 1.2;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #0d0b0a;
     margin-bottom: 20px;
 }
 .explore-main-text {
@@ -26,7 +29,6 @@
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    color: #0d0b0a;
     margin-bottom: 48px;
 }
 .explore-text {
@@ -34,8 +36,8 @@
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    color: #0d0b0a;
-    padding-bottom: 48px
+    
+    
     
 }
 .explore-title {
@@ -45,11 +47,13 @@
     line-height: 1.4;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #0d0b0a;
     margin-bottom: 20px;
     
 }
-.join-link {
+
+  
+
+.pricing-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +68,115 @@
     background-color: #c2d9fc;
     cursor: pointer;
 }
+
 .explore-img {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
     border-radius: 16px;
+    width: 100%;
+    
 }
+
+
+.explore-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px; 
+  margin-bottom: 48px;
+}
+
+.explore-title-tablet {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+    
+    
+}
+.link-tablet-desktop {
+  display: none;
+}
+@media screen and (min-width: 775px) {
+    .link-tablet-desktop {
+    display: inline;
+  }
+  .explore-container {
+    padding: 40px 0;
+    
+  }
+  .yoga-classes {
+    background-color: #f2fafa;;
+  }
+  .tagline-wrapper {
+    margin-bottom: 16px;
+  }
+  .explore-main-title{
+    margin-bottom: 24px;
+  }
+  .explore-main-text {
+    margin-bottom: 40px;
+  }
+
+.explore-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  
+}
+
+
+.explore-program.top-row {
+  width: 45%; 
+  min-width: 340px;
+  gap: 0;
+  margin-bottom: 27px;
+}
+
+
+.explore-program.full-width {
+  width: 100%;
+}
+.explore-title {
+    margin-bottom: 0;
+
+}
+.title-part-is-hidden {
+  display: none;
+}
+.pricing-link {
+ width: 110px; 
+}
+
+  }
+
+  @media screen and (min-width: 1336px) {
+  .explore-list {
+    gap: 24px;
+    justify-content: center;
+  }
+
+  
+  .explore-program.top-row {
+    width: calc((100% - 48px) / 3); 
+  }
+
+  .explore-program.full-width {
+    width: calc((100% - 48px) / 3); 
+  }
+  .title-part {
+  display: block;
+}
+.explore-title {
+  margin-bottom: 24px;
+  font-size: 36px;
+}
+.explore-main-title {
+  font-size: 52px;
+}
+
+}
+

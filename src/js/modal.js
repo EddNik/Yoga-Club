@@ -51,3 +51,39 @@
     document.body.classList.toggle('no-scroll');
   }
 })();
+
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-open-24]'),
+
+    closeModalBtn: document.querySelector('[data-modal-close-24]'),
+
+    modal: document.querySelector('[data-modal-24]'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle('is-open');
+    document.body.classList.toggle('no-scroll');
+  }
+})();
+
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-meny-open]'),
+
+    closeModalBtn: document.querySelector('[data-meny-close]'),
+
+    modal: document.querySelector('[data-meny]'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle('is-open');
+    document.body.classList.toggle('no-scroll');
+  }
+})();
