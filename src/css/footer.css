@@ -57,7 +57,6 @@
 }
 .mobile-text {
   display: inline;
-  margin-bottom: 12px;
 }
 .form-footer {
   display: flex;
@@ -65,6 +64,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 16px;
+  margin-bottom: 12px;
 }
 .form-footer-email {
   display: flex;
@@ -100,7 +100,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.6;
-  margin-top: 12px;
 }
 
 @media screen and (min-width: 768px) {
