@@ -1,7 +1,7 @@
 <header class="header">
   <div class="container header-container">
     <nav class="nav-burger-menu">
-      <svg class="burger-icon" width="24" height="24">
+      <svg class="burger-icon" width="24" height="24" data-menu-open>
         <use href="/img/sprite.svg#burger-menu"></use>
       </svg>
       <ul class="navigation-list">
@@ -34,10 +34,9 @@
   </div>
 
   <!-- #region navbar-menu -->
-
-  <div class="navbar-menu">
+  <section class="navbar-menu" data-menu>
     <div class="container navbar-header-container">
-      <svg class="navbar-close" width="24" height="24">
+      <svg class="navbar-close" width="24" height="24" data-menu-close>
         <use href="/img/sprite.svg#burger-close"></use>
       </svg>
       <a class="nav-logo" href="./index.html" aria-label="Site logo">
@@ -70,6 +69,6 @@
       </ul>
       <a href="#" class="navbar-join-link">Join</a>
     </nav>
-  </div>
+  </section>
   <!-- #endregion mobile-menu -->
 </header>
