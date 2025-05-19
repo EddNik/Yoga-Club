@@ -51,7 +51,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  color: #0d0b0a;
 }
 .desktop-text, .copyright-desktop {
   display: none;
@@ -87,7 +86,6 @@
 }
 .input-footer {
   width: 100%;
-  color: #0d0b0a;
   border: none;
   background-color: transparent;
 }
@@ -102,7 +100,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.6;
-  color: #0d0b0a;
   margin-top: 12px;
 }
 
@@ -161,7 +158,6 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1.6;
-  color: #0d0b0a;
 }
 .links-connect {
   display: flex;
@@ -183,7 +179,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
-  color: #0d0b0a;
 }
 .icons-list-footer {
   display: flex;
@@ -196,7 +191,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
-  color: #0d0b0a;
 }
 
 @media screen and (min-width: 768px) {
