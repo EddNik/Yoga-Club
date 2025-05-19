@@ -11,6 +11,9 @@
   border-radius: 16px;
   padding: 32px;
 }
+.logo-footer-svg {
+  fill: #0D0B0A;
+}
 
 @media screen and (min-width: 768px) {
   .footer {
@@ -93,6 +96,7 @@
   border: 1px solid rgba(255, 255, 255, 0);
   background: rgba(13, 11, 10, 0.05);
   border-radius: 100px;
+  color: inherit;
   width: 100%;
   height: 46px;
 }
@@ -157,6 +161,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1.6;
+  fill: 0D0B0A;
 }
 .links-connect {
   display: flex;
@@ -185,6 +190,9 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 12px;
+}
+.icons-footer {
+  fill: #0D0B0A ;
 }
 .copyright {
   font-weight: 400;
