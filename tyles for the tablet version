@@ -1,0 +1,229 @@
+[33mcommit d363f32d854b9688de4db76a77fb7f1cabe5ce35[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mteam/delete[m[33m)[m
+Author: anna <teplyukanna5@gmail.com>
+Date:   Sun May 18 01:38:28 2025 +0200
+
+    added styles for the tablet version
+
+[33mcommit 8d295c841cea4d611d7e601f129fef56bd9820cd[m[33m ([m[1;31morigin/team/delete[m[33m)[m
+Author: anna <teplyukanna5@gmail.com>
+Date:   Sat May 17 22:55:15 2025 +0200
+
+    Revised HTML layou and added styles; styling in progress
+
+[33mcommit 73ab37b3435b68633da71aa916b864ec989d1d37[m
+Author: anna <teplyukanna5@gmail.com>
+Date:   Sat May 17 18:15:05 2025 +0200
+
+    added new clases
+
+[33mcommit 4a9a6eeb49c32984f8dbe0a6fad6f97477ba704a[m
+Merge: 2606d4b 4c418f7
+Author: anna <teplyukanna5@gmail.com>
+Date:   Sat May 17 17:33:24 2025 +0200
+
+    saved changes
+
+[33mcommit 2606d4bdc176a899005b7454219afb7ff9135ac4[m
+Author: anna <teplyukanna5@gmail.com>
+Date:   Sat May 17 00:16:05 2025 +0200
+
+    Created basic markup of the HTML file, added a list of social media links, and added styles for the Team Member class in the Team CSS file
+
+[33mcommit 4c418f78fc3259f0254aef997487ebe47f4c6b98[m
+Merge: 4a73719 2fb4fc5
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Sat May 17 00:35:30 2025 +0300
+
+    Merge pull request #13 from Anhelina-uk/header
+    
+    markup and styles of the mobile/tablet header
+
+[33mcommit 2fb4fc5763f4b608260f5a310cdcb5c96476302c[m
+Author: Eduard <nikinna86@gmail.com>
+Date:   Fri May 16 23:21:17 2025 +0300
+
+    markup and styles of the mobile/tablet header
+
+[33mcommit d8a5c84a0abeaa3482f1295e2d2b4df18a23bfd8[m
+Author: anna <teplyukanna5@gmail.com>
+Date:   Fri May 16 20:24:42 2025 +0200
+
+    i wrapped the text content inside a div container
+
+[33mcommit fc18a9cf960ee8f1199f1c06f22a71f2261005e7[m
+Author: anna <teplyukanna5@gmail.com>
+Date:   Fri May 16 17:15:44 2025 +0200
+
+    Basic layot completed, without adding SVGs
+
+[33mcommit 4a7371906d4f0de3cbccc027c4c39c64bdb79089[m
+Author: Anhelina <parshinaangel@gmail.com>
+Date:   Fri May 16 21:10:37 2025 +0300
+
+    enabled style normalizer and fonts
+
+[33mcommit bb33bf54aa5d62e30a369d6f6863698d9f192a50[m
+Author: Anhelina <parshinaangel@gmail.com>
+Date:   Fri May 16 20:08:29 2025 +0300
+
+    configured the repository with already downloaded img and svg sprite
+
+[33mcommit 7483c38f527628f115c74535f47608c0d82df88b[m
+Merge: b05f20e 3d83643
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Fri May 16 16:56:52 2025 +0300
+
+    Merge pull request #8 from Anhelina-uk/team/delete
+    
+    an image has been added for collaborative use in the project.
+
+[33mcommit b05f20e21e600794b36d60e998691472cc9af22e[m
+Merge: 0c804ce 4046803
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Fri May 16 16:54:55 2025 +0300
+
+    Merge pull request #7 from Anhelina-uk/header
+    
+    sprite.svg file
+
+[33mcommit 3d8364306ae06ceb4db851229e143b81e51ca994[m
+Author: anna <teplyukanna5@gmail.com>
+Date:   Fri May 16 10:14:23 2025 +0200
+
+    Added images for the entire project
+
+[33mcommit 404680395f43d3ba957bd676093c5cf22018d5df[m
+Author: Eduard <nikinna86@gmail.com>
+Date:   Fri May 16 10:40:42 2025 +0300
+
+    generate sprite.svg file with all icons
+
+[33mcommit a500011f39b0503ecffbb7d1e3d71f73ee4372a3[m
+Merge: 8d6895f 0c804ce
+Author: Eduard <nikinna86@gmail.com>
+Date:   Fri May 16 10:22:56 2025 +0300
+
+    Merge branch 'main' into header
+
+[33mcommit 8d6895f6b76cceeece6dd6c030e3a76072d26e32[m
+Author: Eduard <nikinna86@gmail.com>
+Date:   Fri May 16 10:17:13 2025 +0300
+
+    remove test rejecting pull request by teamlead
+
+[33mcommit 0c804ce522339c8fc5c1757a050b17497de2d688[m
+Merge: 853e34d 254a546
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Thu May 15 23:34:04 2025 +0300
+
+    Merge pull request #6 from Anhelina-uk/gallery
+    
+    hello
+
+[33mcommit 254a5466b84cf294e9527df951ba04731bf07678[m
+Author: Artur Protsenko <artur.protsenko.1995@gmail.com>
+Date:   Thu May 15 22:30:51 2025 +0200
+
+    hello
+
+[33mcommit 853e34dd965df1478536e53776f0887a5de2634e[m
+Merge: 26d2f2e 181569d
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Thu May 15 23:02:06 2025 +0300
+
+    Merge pull request #4 from Anhelina-uk/gallery
+    
+    hello
+
+[33mcommit 181569d7376892742b1d682b0818c4369927ff65[m
+Author: Artur Protsenko <artur.protsenko.1995@gmail.com>
+Date:   Thu May 15 21:58:32 2025 +0200
+
+    bue
+
+[33mcommit 2a78124cecbc5d6ba4209a3c4847afc61b89b4d4[m
+Author: Artur Protsenko <artur.protsenko.1995@gmail.com>
+Date:   Thu May 15 21:55:30 2025 +0200
+
+    hello
+
+[33mcommit 0c7bfad93f0e1e0db4185e4d9acf353705e4248e[m
+Author: Eduard <nikinna86@gmail.com>
+Date:   Thu May 15 22:48:20 2025 +0300
+
+    flex box in header
+
+[33mcommit 26d2f2e8cc6d403d1492a4d9a81aee3ad44486c1[m
+Merge: 31ceb6a 4d96327
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Thu May 15 22:44:49 2025 +0300
+
+    Merge pull request #3 from Anhelina-uk/header
+    
+    delete pages
+
+[33mcommit 4d9632746751ad8ceca7d392e2470278d537dc8a[m
+Author: Eduard <nikinna86@gmail.com>
+Date:   Thu May 15 22:40:02 2025 +0300
+
+    delete pages
+
+[33mcommit 31ceb6a28a9720a2d8c362194e95a73f45041bbe[m
+Merge: 6ebdf0b 0f70ead
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Thu May 15 21:02:30 2025 +0300
+
+    Merge pull request #2 from Anhelina-uk/gallery
+    
+    change color paragraf
+
+[33mcommit 0f70ead0d70c99600ffc30b5f865afe5bc543341[m
+Author: Artur Protsenko <artur.protsenko.1995@gmail.com>
+Date:   Thu May 15 19:59:13 2025 +0200
+
+    change as before
+
+[33mcommit 09a969a1730400f13672f58c0d881a8d092ef738[m
+Author: Artur Protsenko <artur.protsenko.1995@gmail.com>
+Date:   Thu May 15 19:53:49 2025 +0200
+
+    change color paragraf
+
+[33mcommit 6ebdf0b9458e83952962d5d44b084497219a48dd[m
+Merge: 7653542 2dc1de4
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Thu May 15 20:46:10 2025 +0300
+
+    Merge pull request #1 from Anhelina-uk/gallery
+    
+    hello world
+
+[33mcommit 2dc1de461bda9a003daa7f735323804405c36775[m
+Author: Artur Protsenko <artur.protsenko.1995@gmail.com>
+Date:   Thu May 15 19:34:13 2025 +0200
+
+    hello world
+
+[33mcommit 765354295a9f6ef546b316e8aa7c7f74754a5041[m
+Author: Anhelina <parshinaangel@gmail.com>
+Date:   Thu May 15 03:35:57 2025 +0300
+
+    add js.file. unnecessary files deleted
+
+[33mcommit 7b3e0fe91b306fc0cd6163c5dbff4e5ad2521bb9[m
+Author: Anhelina <parshinaangel@gmail.com>
+Date:   Thu May 15 03:34:33 2025 +0300
+
+    add js.file. unnecessary files deleted
+
+[33mcommit df417c9a4a44cf788cf39dd55f41d844bb1ffc2a[m
+Author: Anhelina <parshinaangel@gmail.com>
+Date:   Thu May 15 02:30:00 2025 +0300
+
+    add base  settings
+
+[33mcommit 811d4d39c73b70b8340ea8a099313dd782a6f782[m
+Author: Angelina <parshinaangel@gmail.com>
+Date:   Wed May 14 23:17:58 2025 +0300
+
+    Initial commit
