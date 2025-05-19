@@ -57,16 +57,31 @@
     openModalBtn: document.querySelector('[data-menu-open]'),
 
     closeModalBtn: document.querySelector('[data-menu-close]'),
+    closeModalJoin: document.querySelector('[data-menu-close-nav-join]'),
+    closeModalCont: document.querySelector('[data-menu-close-contacts]'),
+    closeModalPrice: document.querySelector('[data-menu-close-pricing]'),
+    closeModalTestim: document.querySelector('[data-menu-close-testimonials]'),
+    closeModalTeam: document.querySelector('[data-menu-close-team]'),
+    closeModalYoga: document.querySelector('[data-menu-close-yoga]'),
+    closeModalNavbarJoin: document.querySelector('[navbar-menu-join]'),
+    closeModalNavbarJoinNow: document.querySelector('[navbar-menu-join-now]'),
 
     modal: document.querySelector('[data-menu]'),
   };
 
   refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalJoin.addEventListener('click', toggleModal);
+  refs.closeModalCont.addEventListener('click', toggleModal);
+  refs.closeModalPrice.addEventListener('click', toggleModal);
+  refs.closeModalTestim.addEventListener('click', toggleModal);
+  refs.closeModalTeam.addEventListener('click', toggleModal);
+  refs.closeModalYoga.addEventListener('click', toggleModal);
+  refs.closeModalNavbarJoin.addEventListener('click', toggleModal);
+  refs.closeModalNavbarJoinNow.addEventListener('click', toggleModal);
 
   function toggleModal() {
     refs.modal.classList.toggle('is-open');
-    document.body.classList.toggle('no-scroll');
   }
 })();
 
