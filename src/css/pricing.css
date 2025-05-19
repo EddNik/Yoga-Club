@@ -26,6 +26,13 @@
   border-radius: 16px;
   padding: 32px 24px;
   box-sizing: border-box;
+  transition: transform 250ms ease, box-shadow 250ms ease, background 250ms ease;
+}
+
+.thumb-pricing:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
 }
 
 .thumb-pricing:last-child {
@@ -230,6 +237,14 @@
     padding-right: 16px;
     column-gap: 32px;
     box-sizing: border-box;
+    transition: transform 250ms ease, box-shadow 250ms ease,
+      background 250ms ease;
+  }
+
+  .thumb-pricing-tablet:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
   }
 
   .container-tablet-button {
