@@ -164,10 +164,7 @@
     height: 100%;
     border-radius: 0;
   }
-  .container {
-    min-width: 100%;
-    max-width: 741px;
-  }
+
   .modal-form {
     max-width: 709px;
   }
