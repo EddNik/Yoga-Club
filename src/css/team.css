@@ -1,10 +1,9 @@
 /* Team Section */
 .our-team-section {
     background-color: #f2fafa;
+     padding: 64px 0;
 }
-.our-team-section {
-    padding: 64px 0;
-}
+
 /* Our team title-text */ 
 .section-label {
 font-weight: 600;
