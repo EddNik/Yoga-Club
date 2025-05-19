@@ -1,0 +1,134 @@
+/* Team Section */
+.our-team-section {
+    padding: 64px 16px;
+    background-color: #FEFEF7;
+}
+/* Our team title-text */ 
+.section-label {
+font-weight: 600;
+text-align: center;
+line-height: 1.5;
+margin-bottom: 12px;
+}
+
+.our-team-title {
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #252322;
+}
+.section-description {
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 48px;
+} 
+
+/* Team member card*/
+.team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 16px;
+    box-shadow: 
+              0 2px 1px 0 rgba(46, 47, 66, 0.08),
+              0 1px 1px 0 rgba(46, 47, 66, 0.16),
+              0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-member-image {
+    border-radius: 16px;
+}
+
+.team-member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+.team-member:nth-child(6) .team-member-info{
+display: none;
+}
+
+.team-name-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #252322;
+    padding-bottom: 0;
+}
+.team-role {
+    line-height: 1.6;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.team-description {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+/* styles for tablet */
+@media screen and (min-width: 768px) {
+    .our-team-section { 
+        padding: 40px 32px;
+    }
+    .team-label {
+       margin-bottom: 16px; 
+    }
+    .our-team-title {
+        font-size: 52px;
+        margin-bottom: 24px;
+    }
+    .section-description {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .team-list {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+      }
+      .team-name-title { 
+        font-size: 22px;
+      }
+      .team-role {
+         padding-bottom: 16px;
+      }
+      .team-member {
+
+        flex-basis: calc((100% - 24px) / 2);
+      }
+
+      .team-member:nth-child(6) .team-description-mobile {
+       display: none;
+     }
+     .team-member:nth-child(6) .team-member-info {
+       display: block;
+}
+}
+/* styles for desktop */
+@media screen and (min-width: 1336px) {
+.our-team-section {
+    padding: 112px 64px;
+}
+
+ .team-member {
+     flex-basis: calc((100% - 2 * 24px) / 3);
+ }
+}

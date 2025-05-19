@@ -8,6 +8,8 @@
   justify-content: space-between;
   align-items: center;
   gap: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .nav-burger-menu {
@@ -20,12 +22,11 @@
 .nav-logo {
   width: 84px;
   height: 36px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 }
 
 .nav-logo-icon {
-  padding-top: 3px;
-  padding-bottom: 10px;
   fill: #0d0b0a;
 }
 
@@ -41,14 +42,12 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  max-width: 74px;
+  width: 74px;
+  height: 100%;
   right: 0;
   border: 1px solid #c2d9fc;
   border-radius: 100px;
   background-color: #c2d9fc;
-
-  padding: 4px 20px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -58,16 +57,21 @@
 
 .nav-join-now {
   display: none;
-  max-width: 105px;
-  padding: 8px 20px;
+  width: 105px;
+}
+
+.navigation-list {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
+    gap: 32px;
+    padding: 15px 32px;
+  }
   .nav-burger-menu {
     width: 278px;
-  }
-  .header-container {
-    gap: 32px;
   }
 
   .join-wrapper {
@@ -81,5 +85,52 @@
 
   .nav-join-now {
     display: inline-flex;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .header-container {
+    max-width: 1440px;
+    padding: 15px 64px;
+  }
+  .burger-icon {
+    display: none;
+  }
+  .nav-section {
+    width: 582px;
+    height: 100%;
+    padding: 8px 0;
+  }
+
+  .navigation-list {
+    display: flex;
+    gap: 32px;
+  }
+
+  .navigation-item {
+    height: 26px;
+  }
+
+  .navigation-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Sarabun', sans-serif;
+    color: #0d0b0a;
+    display: inline-block;
+    height: 100%;
+  }
+
+  .navigation-link:hover,
+  .navigation-link:focus {
+    border-bottom: 2px solid rgba(13, 11, 10, 0.5);
+  }
+
+  .navigation-link.current {
+    border-bottom: 2px solid rgba(13, 11, 10, 0.5);
+  }
+
+  .join-wrapper {
+    width: 582px;
   }
 }
