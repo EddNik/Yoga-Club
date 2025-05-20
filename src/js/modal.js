@@ -63,8 +63,8 @@
     closeModalTestim: document.querySelector('[data-menu-close-testimonials]'),
     closeModalTeam: document.querySelector('[data-menu-close-team]'),
     closeModalYoga: document.querySelector('[data-menu-close-yoga]'),
-    closeModalNavbarJoin: document.querySelector('[navbar-menu-join]'),
-    closeModalNavbarJoinNow: document.querySelector('[navbar-menu-join-now]'),
+    closeModalNavbarJoin: document.querySelector('[data-menu-join]'),
+    closeModalNavbarJoinNow: document.querySelector('[data-menu-join-now]'),
 
     modal: document.querySelector('[data-menu]'),
   };
