@@ -7,9 +7,10 @@
 }
 
 .container-modal {
-  min-width: 100%;
-  max-width: 741px;
+  min-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 /* Styles for Tablet devices */
@@ -18,9 +19,7 @@
     max-width: 736px;
   }
   .container-modal {
-    min-width: 320px;
     max-width: 736px;
-    padding: 0 16px;
   }
 }
 /* Styles for Desktop devices */

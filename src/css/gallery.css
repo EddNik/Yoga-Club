@@ -4,7 +4,6 @@
 .gallery-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 .gallery-title {
@@ -25,11 +24,11 @@
   max-width: 335px;
 }
 .gallery-list {
+  width: 335px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  align-content: flex-start;
-  justify-content: flex-start;
+  list-style: none;
 }
 
 .gallery-item {
@@ -38,39 +37,30 @@
 .gallery-picture img {
   border-radius: 16px;
   object-fit: cover;
-  height: auto;
+}
+.yoga-image {
+  width: 100%;
 }
 @media only screen and (min-width: 768px) {
-  .gallery-container {
-    gap: 80px;
-    padding: 40px 32px;
-  }
   .gallery-title {
     margin-bottom: 24px;
   }
   .subtitle {
     margin-bottom: 80px;
+    max-width: 704px;
   }
-
   .gallery-list {
-    width: 704px;
-  }
-  .gallery-item {
+    width: 100%;
     flex: 0 0 calc((100% - 24px) / 2);
   }
 }
 @media only screen and (min-width: 1336px) {
-  .gallery-container {
-    padding: 112px 64px;
-  }
   .gallery-title {
     font-size: 52px;
   }
   .subtitle {
     font-weight: 500;
-  }
-  .gallery-list {
-    width: 1312px;
+    max-width: 768px;
   }
   .gallery-item {
     flex: 0 0 calc((100% - 48px) / 3);
@@ -78,5 +68,8 @@
   .gallery-picture img {
     border-radius: 16px;
     object-fit: cover;
+  }
+  .gallery-list {
+    width: 100%;
   }
 }

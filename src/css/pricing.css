@@ -127,6 +127,7 @@
 .item-pricing {
   display: flex;
   gap: 16px;
+  fill: #0d0b0a;
 }
 
 .list-thumb-pricing {

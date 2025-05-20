@@ -1,12 +1,12 @@
 .section-aboutus {
   background-color: #dfebeb;
+  padding: 64px 0;
 }
 .aboutus-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 64px 0;
 }
 .aboutus-title-box {
   display: flex;
@@ -84,11 +84,10 @@
 @media only screen and (min-width: 768px) {
   .section-aboutus {
     background-color: #f2fafa;
-  }
-  .aboutus-box {
     padding-bottom: 50px;
     padding-top: 80px;
   }
+
   .aboutus-title-box {
     display: flex;
     flex-direction: column;
@@ -142,9 +141,11 @@
   }
 }
 @media only screen and (min-width: 1336px) {
-  .aboutus-box {
+  .section-aboutus {
+    background-color: #f2fafa;
     padding: 112px 0;
   }
+
   .aboutus-title {
     font-size: 52px;
   }

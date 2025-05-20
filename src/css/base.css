@@ -15,3 +15,10 @@ input {
 .hiden {
   display: none;
 }
+
+.link-hover:hover,
+.link-hover:focus {
+  border: #7bafff;
+  background-color: #7bafff;
+  color: #f2fafa;
+}

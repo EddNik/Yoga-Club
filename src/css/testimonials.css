@@ -1,19 +1,16 @@
 .clients {
     background: #f2fafa;
-}
-
-.testimonials-container {
     padding: 64px 0;
 }
 
 @media screen and (min-width: 768px) {
-    .testimonials-container {
+    .clients {
         padding: 40px 0;
     }
 }
 
 @media screen and (min-width: 1336px) {
-    .testimonials-container {
+    .clients {
         padding: 112px 0;
     }
 }
@@ -108,17 +105,11 @@
 .clients-item-text {
     font-family: "Sarabun", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.6;
     text-align: center;
     color: #0d0b0a;
     margin-bottom: 32px;
-}
-
-@media screen and (min-width: 768px) {
-    .clients-item-text {
-        font-size: 22px;
-    }
 }
 
 .client-info {
