@@ -12,7 +12,7 @@
   padding: 32px;
 }
 .logo-footer-svg {
-  fill: #0D0B0A;
+  fill: #0d0b0a;
 }
 
 @media screen and (min-width: 768px) {
@@ -29,7 +29,7 @@
 @media screen and (min-width: 1336px) {
   .footer {
     padding: 64px 0;
-  } 
+  }
   .container-footer {
     justify-content: space-between;
     flex-direction: row;
@@ -55,7 +55,8 @@
   font-size: 16px;
   line-height: 1.6;
 }
-.desktop-text, .copyright-desktop {
+.desktop-text,
+.copyright-desktop {
   display: none;
 }
 .mobile-text {
@@ -109,7 +110,7 @@
 @media screen and (min-width: 768px) {
   .newsletter {
     gap: 24px;
-    max-width: 640px; 
+    max-width: 640px;
   }
   .mobile-text {
     display: none;
@@ -133,7 +134,7 @@
 }
 
 @media screen and (min-width: 1336px) {
-  .newsletter  {
+  .newsletter {
     gap: 24px;
     max-width: 595px;
   }
@@ -161,7 +162,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1.6;
-  fill: #0D0B0A;
+  fill: #0d0b0a;
 }
 .links-connect {
   display: flex;
@@ -192,7 +193,7 @@
   gap: 12px;
 }
 .icons-footer {
-  fill: #0D0B0A ;
+  fill: #0d0b0a;
 }
 .copyright {
   font-weight: 400;
