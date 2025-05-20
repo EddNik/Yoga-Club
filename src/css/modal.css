@@ -155,7 +155,7 @@
   line-height: 1.6;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .modal-1,
   .modal-8,
   .modal-12 {
@@ -168,7 +168,7 @@
   .modal-form {
     max-width: 709px;
   }
-}
+} */
 @media screen and (min-width: 768px) and (max-width: 1335px) {
   .modal-1,
   .modal-8,
