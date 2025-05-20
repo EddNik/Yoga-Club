@@ -1,111 +1,99 @@
 .yoga-classes {
-background-color: #dfebeb;
-padding: 64px 0;
+  background-color: #dfebeb;
+  padding: 64px 0;
 }
 .explore-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-    
 }
 .tagline-wrapper {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 12px;
 }
 .explore-main-title {
-    font-family: "Cabin", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    text-align: center;
-    margin-bottom: 20px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .explore-main-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 48px;
 }
 .explore-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    
-    
-    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 .explore-title {
-    font-family: "Cabin", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    text-align: center;
-    margin-bottom: 20px;
-    
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-  
-
 .pricing-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    border: 1px solid #c2d9fc;
-    border-radius: 100px;
-    height: 46px;
-    width: 100%;
-    background-color: #c2d9fc;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  height: 46px;
+  width: 100%;
+  background-color: #c2d9fc;
+  cursor: pointer;
 }
 
 .explore-img {
-    margin-bottom: 24px;
-    border-radius: 16px;
-    width: 100%;
-    
+  margin-bottom: 24px;
+  border-radius: 16px;
+  width: 100%;
 }
-
 
 .explore-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px; 
+  gap: 48px;
   margin-bottom: 48px;
 }
 
 .explore-title-tablet {
-    font-family: "Cabin", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    text-align: center;
-    color: #0d0b0a;
-    
-    
-    
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
 }
 .link-tablet-desktop {
   display: none;
 }
 @media screen and (min-width: 775px) {
-    .link-tablet-desktop {
+  .link-tablet-desktop {
     display: inline;
   }
-  .explore-container {
+  .yoga-classes {
     padding: 40px 0;
-    
   }
+
   .yoga-classes {
     background-color: #f2fafa;
     padding: 40px 0;
@@ -113,71 +101,63 @@ padding: 64px 0;
   .tagline-wrapper {
     margin-bottom: 16px;
   }
-  .explore-main-title{
+  .explore-main-title {
     margin-bottom: 24px;
-    
   }
   .explore-main-text {
     margin-bottom: 40px;
     font-size: 18px;
   }
 
-.explore-list {
-  gap: 24px;
-  
-  
-}
-
-
-.explore-program.top-row {
-  width: 45%; 
-  min-width: 340px;
-  gap: 0;
-  margin-bottom: 27px;
-}
-
-
-.explore-program.full-width {
-  width: 100%;
-}
-.explore-title {
-    margin-bottom: 0;
-
-}
-.title-part-is-hidden {
-  display: none;
-}
-.pricing-link {
- width: 110px; 
- 
-}
-
+  .explore-list {
+    gap: 24px;
   }
 
-  @media screen and (min-width: 1336px) {
+  .explore-program.top-row {
+    width: 45%;
+    min-width: 340px;
+    gap: 0;
+    margin-bottom: 27px;
+  }
+
+  .explore-program.full-width {
+    width: 100%;
+  }
+  .explore-title {
+    margin-bottom: 0;
+  }
+  .title-part-is-hidden {
+    display: none;
+  }
+  .pricing-link {
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .yoga-classes {
+    padding: 112px 0;
+  }
   .explore-list {
     gap: 24px;
     justify-content: center;
   }
 
-  
   .explore-program.top-row {
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 48px) / 3);
   }
 
   .explore-program.full-width {
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 48px) / 3);
   }
   .title-part {
-  display: block;
+    display: block;
+  }
+  .explore-title {
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
+  .explore-main-title {
+    font-size: 52px;
+  }
 }
-.explore-title {
-  margin-bottom: 24px;
-  font-size: 36px;
-}
-.explore-main-title {
-  font-size: 52px;
-}
-
-}
-
