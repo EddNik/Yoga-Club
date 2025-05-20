@@ -24,7 +24,6 @@
   max-width: 335px;
 }
 .gallery-list {
-  width: 335px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -38,9 +37,7 @@
   border-radius: 16px;
   object-fit: cover;
 }
-.yoga-image {
-  width: 100%;
-}
+
 @media only screen and (min-width: 768px) {
   .gallery-title {
     margin-bottom: 24px;
@@ -50,7 +47,6 @@
     max-width: 704px;
   }
   .gallery-list {
-    width: 100%;
     flex: 0 0 calc((100% - 24px) / 2);
   }
 }
@@ -68,8 +64,5 @@
   .gallery-picture img {
     border-radius: 16px;
     object-fit: cover;
-  }
-  .gallery-list {
-    width: 100%;
   }
 }
