@@ -33,9 +33,11 @@
 .gallery-item {
   flex: 0 0 calc((100% - 24px) / 2);
 }
+
 .gallery-picture img {
   border-radius: 16px;
   object-fit: cover;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -46,7 +48,7 @@
     margin-bottom: 80px;
     max-width: 704px;
   }
-  .gallery-list {
+  .gallery-item {
     flex: 0 0 calc((100% - 24px) / 2);
   }
 }
