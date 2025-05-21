@@ -188,7 +188,10 @@ border-color: inherit;
   font-size: 14px;
   line-height: 1.6;
 }
-.list-footer:focus, .list-footer:hover {
+.list-footer:focus,
+.list-footer:hover,
+.text-list-footer:focus,
+.text-list-footer:hover {
   color: #7bafff;
   transition: all 0.3s ease-in-out;
 }
@@ -202,7 +205,8 @@ border-color: inherit;
 .icons-footer {
   fill: #0d0b0a;
 }
-.icons-footer:hover, .icons-footer:focus {
+.icons-list-footer:hover .icons-footer,
+.icons-list-footer:focus .icons-footer {
   fill: #7bafff;
   transition: all 0.3s ease-in-out;
 }
