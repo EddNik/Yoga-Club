@@ -3,7 +3,7 @@
 One of my favorite projects. It's quite complex. It was very interesting to gain practical experience working in a team environment
 
 ##### 🎯 Project Objectives:
-    - Acquire hands-on experience with project bundler - Vite
+    - Gain hands-on experience with project bundler - Vite
     - Develop skills in project branching and merging
     - Learn to resolve merge conflicts when combining branches
     - Gain experience in project planning and task management
@@ -12,4 +12,5 @@ One of my favorite projects. It's quite complex. It was very interesting to gain
 ##### 🎭 Role in the project:
     - Adaptive header development,
     - Interactive modal components,
-    - JavaScript functionality🎭
+    - JavaScript functionality
+
