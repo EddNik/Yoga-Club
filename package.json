@@ -1,11 +1,11 @@
 {
-  "name": "404-not-founders",
+  "name": "Yoga-Club",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/404-not-founders/",
+    "build": "vite build --base=/Yoga-Club/",
     "preview": "vite preview"
   },
   "devDependencies": {
